@@ -1,0 +1,82 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4 container">Movie App</h1>
+   
+  </div>
+</div>
+
+
+<form>
+  <div class = "form-group">
+  {{input type="text" value = movieTitle placeholder = "Enter A Movie Name"}}
+  <button {{action 'searchMovie'}} class = "btn btn-primary">Search</button>
+  </div>
+
+
+</form>
+
+
+
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Poster</th>
+      <th scope="col">Name</th>
+      <th scope="col">Year</th>
+      <th scope="col">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+      {{#each this.model.movies as |movie|}}
+    <tr>
+    
+      <th scope="row"><img src={{movie.Poster}} alt="" height ="180" width ="120"></th>
+      <td>{{movie.Title}}</td>
+      <td>{{movie.Year}}</td>
+      <td>{{movie.Type}}</td>
+    
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+
+
+   
+ 
+
+
+
+
+
+
+
+{{!-- 
+<ul>
+{{#each this.model.movies as |movie|}}
+
+<li>
+<div class="card " style="width: 18rem;">
+  <div class="card-body container">
+    <h4>{{movie.Title}}</h4>
+   <img src={{movie.Poster}} alt=" " class = "container">
+   <h5>{{movie.Runtime}}</h5>
+   
+   
+  </div>
+</div>
+</li> --}}
+
+  {{!-- <li>
+    {{movie.Title}}
+   <img src={{movie.Poster}} alt="">
+  </li> --}}
+{{!-- {{/each}}
+</ul> --}}
+
+{{outlet}}
+
+
+
+
+
