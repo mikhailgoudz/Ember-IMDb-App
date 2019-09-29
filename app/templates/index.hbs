@@ -1,21 +1,21 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4 container">Movie App</h1>
-   
+
   </div>
 </div>
 
 
 <form>
-  <div class = "form-group">
-  {{input type="text" value = movieTitle placeholder = "Enter A Movie Name"}}
-  <button {{action 'searchMovie'}} class = "btn btn-primary">Search</button>
+  <div class="form-group">
+    {{input type="text" value = movieTitle placeholder = "Enter A Movie Name"}}
+    <button {{action 'searchMovie'}} class="btn btn-primary">Search</button>
   </div>
 
 
 </form>
 
-
+{{this.model.details.Title}}
 
 
 <table class="table">
@@ -28,22 +28,26 @@
     </tr>
   </thead>
   <tbody>
-      {{#each this.model.movies as |movie|}}
+    {{#each this.model.movies as |movie|}}
     <tr>
-    
-      <th scope="row"><img src={{movie.Poster}} alt="" height ="180" width ="120"></th>
+
+      {{!-- <LinkTo @route="details"  @query={{hash direction="asc"}}> --}}
+      {{!-- {{#link-to "details"}} --}}
+      <th scope="row"><img {{action "goToDetails" movie}} src={{movie.Poster}} alt="" height="180" width="120"></th>
+      {{!-- {{/link-to}} --}}
+      {{!-- </LinkTo> --}}
       <td>{{movie.Title}}</td>
       <td>{{movie.Year}}</td>
       <td>{{movie.Type}}</td>
-    
+
     </tr>
-  {{/each}}
+    {{/each}}
   </tbody>
 </table>
 
 
-   
- 
+
+
 
 
 
@@ -67,7 +71,7 @@
 </div>
 </li> --}}
 
-  {{!-- <li>
+{{!-- <li>
     {{movie.Title}}
    <img src={{movie.Poster}} alt="">
   </li> --}}
@@ -75,8 +79,3 @@
 </ul> --}}
 
 {{outlet}}
-
-
-
-
-

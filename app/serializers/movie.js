@@ -6,6 +6,7 @@ export default DS.JSONAPISerializer.extend({
     return key;
   },
   normalizeResponse(store, primaryModelClass, payload, id, requestType) {
+  
     payload.data = payload.Search;
     payload.data.forEach(item => {
       item.type = primaryModelClass.modelName; //'result'
