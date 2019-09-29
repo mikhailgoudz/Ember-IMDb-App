@@ -18,6 +18,24 @@ export default Controller.extend({
           s: movieTitle
         })
       })
+    },
+
+    colorToggle(){
+
+     
+    
+      if(document.querySelector('#theme').className=="dark"){
+
+        document.querySelector('#theme').className="light";
+
+      }
+      else{
+
+        document.querySelector('#theme').className="dark";
+      }
+
+
+
     }
   }
 });

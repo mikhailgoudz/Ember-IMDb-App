@@ -1,23 +1,24 @@
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4 container">Movie App</h1>
-
-  </div>
-</div>
-
+ <div class="jumbotron showcase">
+           
+            
+ </div>
+        
 
 <form>
-  <div class="form-group">
-    {{input type="text" value = movieTitle placeholder = "Enter A Movie Name"}}
-    <button {{action 'searchMovie'}} class="btn btn-primary">Search</button>
+  
+  <div class="form-group d-flex justify-content-center">
+    {{input type="text" value = movieTitle placeholder = "Movie Search"}}
+    <button {{action 'searchMovie'}} class="btn btn-primary ml-2 ">Search</button>
+     <button {{action 'colorToggle'}} class="btn btn-primary ml-2 ">Light/Dark Theme</button>
   </div>
+  
 
 
 </form>
 
 {{this.model.details.Title}}
 
-
+<div id = "theme"> 
 <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -44,6 +45,7 @@
     {{/each}}
   </tbody>
 </table>
+</div>
 
 
 

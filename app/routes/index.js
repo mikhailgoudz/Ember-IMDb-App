@@ -5,9 +5,9 @@ export default Route.extend({
   async model() {
 
     var movies = await this.store.query('movie', {
-      s: 'test'
+      s: 'Toy Story'
     })
-    movies = movies.slice(0,5)
+    movies = movies.slice(0,4)
 
     return {
      
