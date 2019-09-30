@@ -14,8 +14,8 @@ body {background-color: rgb(248, 248, 248);}
 }
 
 .showcase{
-    min-height: 450px;
-    background:url("https://user-images.githubusercontent.com/43256526/65839760-29d88080-e2c5-11e9-8d12-b7e21220d798.jpg") no-repeat;
+    min-height: 500px;
+    background:url("https://user-images.githubusercontent.com/43256526/65907592-7bdade00-e379-11e9-9113-a75fccdcb775.jpg") no-repeat;
     background-size:cover;
     background-position:center;
     color:white;
