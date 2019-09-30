@@ -1,6 +1,23 @@
-# data-example
+# Movie App Ember Data
 
-This is a sample project which shows how to create model, serializer, adapter, and http-proxy for accessing the omdbapi.
+Author : Mikhail Goudz
+
+This application opens with 4 pre selected movies.
+On those pre selected movies you can see some general info aswell as aditional info once you click on the poster.
+User can also search for movies which will update the table of movie(s).
+
+
+## Time Spent
+
+30-40hours
+
+*Watching videos uploaded by the instructer 6 hours
+*Additional research reading Ember guides 10 hours
+*Coding required stories 20 Hours
+*Optional and extras 30 minutes 
+*Currently trying to figure out how to complete some of the more tricky difficult ones
+
+
 
 ## Hiding your API key
 * Modify your `.gitignore` file so that it includes a line item for `/config/custom-config.js`
