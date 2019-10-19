@@ -9,11 +9,11 @@ User can also search for movies which will update the table of movie(s).
 
 ## Time Spent
 
-30-40hours
+8-10 Hours
 
-* Watching videos uploaded by the instructer 6 hours
-* Additional research reading Ember guides 10 hours
-* Coding required stories 20 Hours
+* Watching videos uploaded by the instructer 2 hours
+* Additional research reading Ember guides 3 hours
+* Coding required stories 5 Hours
 * Optional and extras 30 minutes 
 * Currently trying to figure out how to complete some of the more tricky difficult ones
 
