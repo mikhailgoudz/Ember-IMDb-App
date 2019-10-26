@@ -1,10 +1,10 @@
-# Movie App using Ember Data
+# Movie App 
 
 Author : Mikhail Goudz
 
 This application opens with 4 pre selected movies.
 On those pre selected movies you can see some general info aswell as aditional info once you click on the poster.
-User can also search for movies which will update the table of movie(s).
+User can also search for movies which will update the table of movies (done using the OMDb Api with Ember Data)
 
 
 ## Time Spent
