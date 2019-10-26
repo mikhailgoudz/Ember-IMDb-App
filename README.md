@@ -2,7 +2,7 @@
 
 Author : Mikhail Goudz
 
-An application utilizing the OMDBApi with an index page with 4 pre-selected movies. The user can click the poster image to see additional info on those movies or search for a movie or movies of their choice with which will update the table of movie(s).
+An application utilizing the OMDBApi with an index page with 4 pre-selected movies. The user can click the poster image to see additional info of those movies or search for a movie or movies of their choice with which will update the table of movie(s).
 
 
 ## Time Spent
