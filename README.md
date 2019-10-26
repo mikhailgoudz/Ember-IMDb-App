@@ -1,4 +1,4 @@
-# Movie App Ember Data
+# Movie App using Ember Data
 
 Author : Mikhail Goudz
 
@@ -12,7 +12,7 @@ User can also search for movies which will update the table of movie(s).
 8-10 Hours
 
 * Watching videos uploaded by the instructer 2 hours
-* Additional research reading Ember guides 3 hours
+* Additional research reading Ember guides 2 hours
 * Coding required stories 5 Hours
 * Optional and extras 30 minutes 
 * Currently trying to figure out how to complete some of the more tricky difficult ones
