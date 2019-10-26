@@ -2,9 +2,7 @@
 
 Author : Mikhail Goudz
 
-This application opens with 4 pre selected movies.
-On those pre selected movies you can see some general info aswell as aditional info once you click on the poster.
-User can also search for movies which will update the table of movies (done using the OMDb Api with Ember Data)
+An application utilizing the OMDBApi with an index page with 4 pre-selected movies. The user can click the poster image to see additional info on those movies or search for a movie or movies of their choice with which will update the table of movie(s).
 
 
 ## Time Spent
