@@ -13,7 +13,7 @@ An application utilizing the OMDBApi. The application opens up with an index pag
 * Additional research reading Ember guides 2 hours
 * Coding required stories 5 Hours
 * Optional and extras 30 minutes 
-* Currently trying to figure out how to complete some of the more tricky difficult ones
+
 
 ## Gif Walk Through
 
