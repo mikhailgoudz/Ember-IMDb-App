@@ -17,7 +17,7 @@ An application utilizing the OMDBApi. The application opens up with an index pag
 
 ## Gif Walk Through
 
-<a href = "https://user-images.githubusercontent.com/43256526/67624354-66c06600-f7e4-11e9-932d-1c4f95f4c105.gif" src = "https://user-images.githubusercontent.com/43256526/67624354-66c06600-f7e4-11e9-932d-1c4f95f4c105.gif"/></a>
+<a href ="https://user-images.githubusercontent.com/43256526/67624354-66c06600-f7e4-11e9-932d-1c4f95f4c105.gif"><img src ="https://user-images.githubusercontent.com/43256526/67624354-66c06600-f7e4-11e9-932d-1c4f95f4c105.gif"/></a>
 
 
 ## Hiding your API key
